@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>FORMULÁRIO</title>
+</head>
+
+<body>
+    <form>
+
+        <fieldset>
+            <legend class="cadastro"><i><b>Cadastro básico</i></b></legend>
+
+            <lable class="cor"><strong>Nome:</strong>
+                <br>
+                <input type="text" autofocus autocomplete="name" placeholder="digite seu nome" name="Nome" required>
+                <br>
+                <br>
+            </lable>
+
+            <label class="cor"><strong>Email:</strong>
+                <br>
+                <input type="email" autocomplete="email" placeholder="exemplo@gmail.com" name="Email" required>
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Idade:</strong>
+                <br>
+                <input type="number" placeholder="digite sua idade" name="Idade" min="12" required>
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Data de Nascimento:</strong>
+                <br>
+                <input type="date" name="Data-de-nascimento" required>
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Onde você possui conta:</strong>
+                <br>
+                <input type="checkbox" name="Instagram">Instagram
+                <input type="checkbox" name="Facebook">Facebook
+                <input type="checkbox" name="Youtube">Youtube
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Sexo:</strong>
+                <br>
+                <input type="radio" name="Sexo" required>Masculino
+                <input type="radio" name="Sexo" required>Feminino
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Cor dos Olhos:</strong>
+                <br>
+                <input type="color" name="Cor-dos-olhos">
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Biografia:</strong>
+                <br>
+                <textarea name="Biografia" required></textarea>
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Foto do Pefil:</strong>
+                <br>
+                <input type="file" name="Foto-do-perfil" accept="image/*" required>
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Telefone:</strong>
+                <br>
+                <input type="tel" name="Telefone" autocomplete="tel" placeholder="digite seu telefone" required>
+                <br>
+                <br>
+            </label>
+
+
+            <label class="cor"><strong>Link do Facebook:</strong>
+                <br>
+                <input type="url" name="Facebook">
+                <br>
+                <br>
+            </label>
+
+            <label class="cor"><strong>Senha:</strong>
+                <br>
+                <input type="password" maxlength="8" minlength="6" placeholder="digite a senha" name="Senha" required>
+                <br>
+                <br>
+
+                <button type="reset" name="limpar">Limpar</button>
+                <button type="submit" name="enviar">Enviar</button>
+        </fieldset>
+
+    </form>
+
+
+    <style>
+
+    </style>
+
+</body>
+
+</html>
